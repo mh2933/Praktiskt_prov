@@ -1,0 +1,21 @@
+#resistor_value = []
+
+resistor_value = input('Ange resistorer: ')
+#int[resistor_value] = resistor_value
+
+resistor_value = float(resistor_value)
+resistor_list = []
+
+for num in resistor_value:
+    resistor_list.append(resistor_value)
+
+
+#print(accumulator)
+#print(resistor_list)    
+#print(resistor_value)
+
+print(f'resistor_value: {resistor_value}')
+print(type(resistor_value))
+
+print(f'resistor_value: {resistor_list}')
+print(type(resistor_list))
