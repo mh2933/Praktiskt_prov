@@ -3,15 +3,19 @@
 resistor_value = input('Ange resistorer: ')
 #int[resistor_value] = resistor_value
 
-accumulator = 0
+
 resistor_list = []
 
 for num in resistor_value:
     resistor_list.append(float(resistor_value))
-    
+
+
+#print(accumulator)
 #print(resistor_list)    
 #print(resistor_value)
-print(type(resistor_value))
+
 print(f'resistor_value: {resistor_value}')
-print(type(resistor_list))
+print(type(resistor_value))
+
 print(f'resistor_value: {resistor_list}')
+print(type(resistor_list))
