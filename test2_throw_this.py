@@ -1,0 +1,1 @@
+# Training file to throw the code after practice
